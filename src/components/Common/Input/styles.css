@@ -1,0 +1,35 @@
+.custom-input {
+  background-color: var(--theme);
+  color: var(--white);
+  border: 2px solid var(--mint-green);
+  border-radius: 0.35rem;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1rem;
+  width: 60vw;
+}
+.custom-input:focus {
+  outline: none;
+  border-color: var(--white);
+}
+.custom-input::placeholder {
+  color: var(--mint-green);
+}
+
+.label-input {
+  color: var(--mint-green);
+}
+
+.active {
+  border-color: var(--white);
+}
+
+@media only screen and (max-width: 500px) {
+  .custom-input {
+    font-size: 0.6rem;
+    padding: 0.6rem 0.8rem;
+    margin: 0.7rem;
+    width: 50vw;
+  }
+}
